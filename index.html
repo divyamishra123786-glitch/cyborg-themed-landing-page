@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="CYBORG-X futuristic cyber technology landing page." />
+  <title>CYBORG-X | Future Interface</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;600;700;800&family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="scanlines"></div>
+  <header class="nav">
+    <a class="logo" href="#home"><span>◈</span> CYBORG-X</a>
+    <button class="menu-btn" aria-label="Toggle navigation">☰</button>
+    <nav id="navLinks">
+      <a href="#home">Home</a>
+      <a href="#systems">Systems</a>
+      <a href="#protocol">Protocol</a>
+      <a href="#contact">Connect</a>
+    </nav>
+    <a class="nav-cta" href="#contact">Initialize</a>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-grid"></div>
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="pulse"></span> SYSTEM ONLINE // 2088</p>
+        <h1>BUILD THE<br><span>FUTURE</span><br>BEYOND LIMITS.</h1>
+        <p class="lead">A futuristic interface for the next generation of digital systems. Connect intelligence, creativity and technology in one cybernetic experience.</p>
+        <div class="hero-actions">
+          <a class="primary" href="#systems">Explore Systems <span>↗</span></a>
+          <a class="secondary" href="#protocol">View Protocol</a>
+        </div>
+        <div class="status-row">
+          <div><b>99.9%</b><small>UPTIME</small></div>
+          <div><b>4.8ms</b><small>RESPONSE</small></div>
+          <div><b>24/7</b><small>ACTIVE</small></div>
+        </div>
+      </div>
+      <div class="cyborg-card">
+        <div class="orbit orbit-a"></div>
+        <div class="orbit orbit-b"></div>
+        <div class="core">
+          <div class="core-ring"></div>
+          <div class="core-center">X</div>
+        </div>
+        <div class="hud hud-one">NEURAL LINK <strong>ACTIVE</strong></div>
+        <div class="hud hud-two">CORE TEMP <strong>32.8°C</strong></div>
+        <div class="hud hud-three">SIGNAL <strong>100%</strong></div>
+        <div class="hud hud-four">NODE_07</div>
+      </div>
+    </section>
+
+    <section id="systems" class="section">
+      <div class="section-head">
+        <p class="eyebrow">01 // SYSTEMS</p>
+        <h2>ENGINEERED FOR<br><span>WHAT'S NEXT.</span></h2>
+      </div>
+      <div class="cards">
+        <article class="feature-card">
+          <div class="icon">◉</div>
+          <span>01</span>
+          <h3>Neural Sync</h3>
+          <p>Real-time intelligence that adapts to your workflow and keeps every signal connected.</p>
+          <a href="#protocol">Learn more →</a>
+        </article>
+        <article class="feature-card active">
+          <div class="icon">⌁</div>
+          <span>02</span>
+          <h3>Quantum Flow</h3>
+          <p>High-speed processing architecture designed for rapid decisions and limitless scale.</p>
+          <a href="#protocol">Learn more →</a>
+        </article>
+        <article class="feature-card">
+          <div class="icon">◇</div>
+          <span>03</span>
+          <h3>Cyber Shield</h3>
+          <p>Layered protection for your digital world, from identity to infrastructure.</p>
+          <a href="#protocol">Learn more →</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="protocol" class="protocol section">
+      <div class="terminal">
+        <div class="terminal-top"><span></span><span></span><span></span><b>cyborg://protocol</b></div>
+        <div class="terminal-body">
+          <p>&gt; INITIALIZING FUTURE_INTERFACE...</p>
+          <p>&gt; NEURAL NETWORK <em>CONNECTED</em></p>
+          <p>&gt; SECURITY LAYERS <em>ONLINE</em></p>
+          <p>&gt; HUMAN + MACHINE <em>SYNCED</em></p>
+          <p class="cursor">&gt; <span>READY FOR INPUT</span>_</p>
+        </div>
+      </div>
+      <div class="protocol-copy">
+        <p class="eyebrow">02 // PROTOCOL</p>
+        <h2>HUMAN<br><span>×</span> MACHINE</h2>
+        <p>Technology should amplify imagination, not replace it. CYBORG-X is a visual concept built around that idea: clean interfaces, strong systems and a future-first mindset.</p>
+        <a class="primary" href="#contact">Connect to Node</a>
+      </div>
+    </section>
+
+    <section id="contact" class="contact section">
+      <p class="eyebrow">03 // CONNECT</p>
+      <h2>READY TO<br><span>INITIALIZE?</span></h2>
+      <p>Enter the next layer of the interface.</p>
+      <button class="primary" id="initBtn">INITIALIZE SYSTEM ↗</button>
+      <p id="systemMsg" class="system-msg" aria-live="polite"></p>
+    </section>
+  </main>
+
+  <footer>
+    <span>CYBORG-X // FUTURE INTERFACE</span>
+    <span>© 2088 — ALL SYSTEMS NOMINAL</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
